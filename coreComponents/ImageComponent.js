@@ -13,9 +13,6 @@ export default function TextComponent() {
         source={{ uri: "https://picsum.photos/640/360" }}
         style={{ width: 100, height: 100 }}
       />
-      <ImageBackground source={logoImage} style={{ flex: 1 }}>
-        <Text style={{ color: "white", fontSize: 20 }}>Image Text</Text>
-      </ImageBackground>
     </View>
   );
 }
